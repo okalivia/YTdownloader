@@ -1,16 +1,20 @@
 # YTdownloader
 #### Download videos or playlists (mp3 or mp4) from Youtube
 
+
 ### Installation
 
-    Install dependencies :
-        pip install pytube
-        pip install moviepy
-        or
-        python.exe -m pip install pytube
-        python.exe -m pip install moviepy
+
+Install dependencies :
+    > pip install pytube
+    > pip install moviepy
+    or
+    > python.exe -m pip install pytube
+    > python.exe -m pip install moviepy
+
 
 ### How to use
+
 
     YTdownloader.py [-h] -l LINK -p PATH [-a]
 
@@ -19,8 +23,10 @@
       -l LINK, --link LINK  Enter the youtube video or playlist link without any & symbol
       -p PATH, --path PATH  Enter the path to store video(s)
       -a, --audio           Download only the audio, without video
-      
+ 
+ 
 ### Examples :
+
 
 Print Help
 > YTdownloader.py -h

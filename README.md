@@ -4,11 +4,11 @@
 ### Installation
 
 Install dependencies :
-        * ``pip install pytube``
-        * ``pip install moviepyUse``
+        - ``pip install pytube``
+        - ``pip install moviepyUse``
         or
-        * ``python.exe -m pip install pytube``
-        * ``python.exe -m pip install moviepy``
+        - ``python.exe -m pip install pytube``
+        - ``python.exe -m pip install moviepy``
 
 ### How to use
 

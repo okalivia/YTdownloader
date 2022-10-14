@@ -31,13 +31,13 @@ Print Help
 > YTdownloader.py -h
 
 Download a single video (mp4)
-> YTdownloader.py -l https://www.youtube.com/watch?v=dQw4w9WgXcQ -p ~\Videos
+> YTdownloader.py -l https://www.youtube.com/watch?v=dQw4w9WgXcQ -p Videos
 
 Download a single video in mp3 (audio only)
-> YTdownloader.py -l https://www.youtube.com/watch?v=dQw4w9WgXcQ -p ~\Music -a
+> YTdownloader.py -l https://www.youtube.com/watch?v=dQw4w9WgXcQ -p .\Music -a
 
 Download a playlist with videos (mp4)
-> YTdownloader.py -l https://www.youtube.com/playlist?list=PLkezPydZpc2ugdWVtom4gyRrE9T1F1rR6 -p ~\Videos\FrenchSongs
+> YTdownloader.py -l https://www.youtube.com/playlist?list=PLkezPydZpc2ugdWVtom4gyRrE9T1F1rR6 -p .\Videos\FrenchSongs
 
 Download a playlist in mp3 (audio only)
-> YTdownloader.py -l https://www.youtube.com/playlist?list=PLkezPydZpc2ugdWVtom4gyRrE9T1F1rR6 -p ~\Music\MyPlaylist80 -a
+> YTdownloader.py -l https://www.youtube.com/playlist?list=PLkezPydZpc2ugdWVtom4gyRrE9T1F1rR6 -p ./Music/MyPlaylist80 -a

@@ -70,8 +70,16 @@ def mp3(YOUTUBE):
 	settings = settings.first()
 	return settings
 
-def save(FILENAME, AUDIO, VIDEO, SAVE_PATH):
+def save(VIDEO_FILENAME, AUDIO, VIDEO, SAVE_PATH):
 	try:
+		FILENAME = ""
+		forbidden = ["|","\\","/","?","*","<",">",":","\""]
+		for char in VIDEO_FILENAME:
+			for e in forbidden:
+				if (char == e):
+					char = ""
+			FILENAME += char
+			
 		if (not VIDEO): # audio part
 			AUDIO.download(filename=f"{FILENAME}.mp3", output_path=SAVE_PATH) # downloading the audio in mp3
 		else:

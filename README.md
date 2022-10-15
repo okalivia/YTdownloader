@@ -7,7 +7,7 @@ Install dependencies :
 
 - ``pip install pytube``
         
-- ``pip install moviepyUse``
+- ``pip install moviepy``
         
 or
         
